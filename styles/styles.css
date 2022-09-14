@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    background-color: #091833;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #0abdc6;
+    color: #091833;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar h1 {
+    padding-left: 1cm;
+}
+
+.navbar div {
+    align-self: center;
+}
+
+.shortcuts {
+    display: flex;
+    border: 2px solid yellow;
+}
+
+.shortcuts a {
+    color: #091833;
+    text-decoration: none;
+    padding: 1cm;
+    font-size: 25px;
+}
+
+.shortcuts a:hover {
+    text-decoration: 3.1px underline solid #711c91;
+}
