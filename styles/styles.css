@@ -14,14 +14,17 @@ body {
     height: 50px;
 }
 
-.navbar h1 {
-    margin-left: 2%;
+.navbar h2 {
+    padding-left: 12%;
+}
+
+.gap {
+    gap: 20%;
 }
 
 .shortcuts {
     display: flex;
     align-items: center;
-    margin-left: 20%;
 }
 
 .shortcuts a {
@@ -33,13 +36,28 @@ body {
 
 .flex-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     border: 1px solid white;
     color: white;
     padding: 20px;
     max-width: 90%;
 }
 
+.who-i-am {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.space-between {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#demian-photo {
+    max-width: 15%;
+    border-radius: 50%;
+}
 
 .shortcuts a:hover {
     text-decoration: 3.1px underline solid #711c91;
