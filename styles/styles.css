@@ -1,13 +1,13 @@
 body {
     box-sizing: border-box;
-    background-color: #0b1414;
     padding: 0;
     margin: 0;
     justify-content: center;
+    background-image: url('/img/sun.jpg');
+
 }
 
 .navbar {
-    background-color: #082c6c;
     color: #bebebe;
     display: flex;
     align-items: center;
@@ -37,10 +37,15 @@ body {
 .flex-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
     color: white;
     padding: 20px;
-    max-width: 90%;
+    padding-bottom: 50px;
+    /* max-width: 100%; */
+}
+
+.border-bottom {
+    border-bottom: 0.5px solid white;
+    margin-bottom: 48px;
 }
 
 .who-i-am {
@@ -52,6 +57,18 @@ body {
 .space-between {
     flex-direction: row-reverse;
     justify-content: space-evenly;
+}
+
+.footer-container {
+    flex-direction: row;
+    color: white;
+
+}
+
+.footer-upborder {
+    border-top: 0.5px solid white;
+    height: 5px;
+    flex-direction: center;
 }
 
 #demian-photo {
