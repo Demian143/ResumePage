@@ -1,17 +1,3 @@
-:root {
-    --gradient: linear-gradient(45deg,
-            #de004e, #860029, #321450, #29132e, #de004e);
-}
-
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-size: 300%;
-    background-image: var(--gradient);
-    animation: bg-animation 10s infinite;
-}
-
 @keyframes bg-animation {
     0% {
         background-position: left;
@@ -21,6 +7,22 @@ body {
         background-position: right;
     }
 }
+
+:root {
+    --gradient: linear-gradient(45deg,
+            #81002d, #860029, #321450, #29132e);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-size: 1500%;
+    background-color: #29132e;
+    background-image: var(--gradient);
+    animation: bg-animation 10s infinite alternate;
+}
+
 
 footer {
     position: relative;
