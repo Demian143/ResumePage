@@ -1,31 +1,5 @@
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-image: url('/img/sun.jpg');
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-footer a {
-    color: #bebebe;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.footer-container {
-    display: flex;
-    gap: 1cm;
-    border-top: 1px solid #bebebe;
-    height: 50px;
-    align-items: center;
-    padding-left: 12%;
-}
+/*===========/=/==========*/
+/* navigation bar stuff */
 
 .navbar {
     color: #bebebe;
@@ -36,10 +10,6 @@ footer a {
 
 .navbar h2 {
     padding-left: 12%;
-}
-
-.gap {
-    gap: 20%;
 }
 
 .shortcuts {
@@ -54,24 +24,20 @@ footer a {
     font-size: 25px;
 }
 
+
+/* general stuff */
+
 .flex-container {
     display: flex;
+    height: auto;
     flex-direction: column;
     color: white;
     padding: 20px;
     padding-bottom: 50px;
-    /* max-width: 100%; */
 }
 
 .border-bottom {
     border-bottom: 0.5px solid white;
-    margin-bottom: 48px;
-}
-
-.who-i-am {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
 }
 
 .space-between {
@@ -79,12 +45,37 @@ footer a {
     justify-content: space-evenly;
 }
 
-
-#demian-photo {
-    max-width: 15%;
-    border-radius: 50%;
+.text {
+    color: #bebebe;
+    text-decoration: none;
+    padding: 1cm;
 }
 
-.shortcuts a:hover {
-    text-decoration: 3.1px underline solid #711c91;
+.padding-left {
+    padding-left: 12%;
+}
+
+.gap {
+    gap: 20%;
+}
+
+
+/* sections */
+
+.who-i-am {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+
+/* footer stuff */
+
+.footer-container {
+    display: flex;
+    gap: 1cm;
+    border-top: 1.5px solid #bebebe;
+    height: 50px;
+    align-items: center;
+    padding-left: 12%;
 }

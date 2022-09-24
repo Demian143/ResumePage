@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/sun.jpg');
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a {
+    color: #bebebe;
+    font-size: 20px;
+    text-decoration: none;
+}
