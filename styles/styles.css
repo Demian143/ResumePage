@@ -69,6 +69,32 @@
     margin: auto;
 }
 
+.projects h2 {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.projects h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.projects p a {
+    color: white;
+}
+
+.contacts ul {
+    padding-left: 5%;
+}
+
+.contacts li a {
+    color: white;
+}
+
+.contacts li {
+    padding-bottom: 2ch;
+}
+
 /* sections */
 
 .who-i-am {
