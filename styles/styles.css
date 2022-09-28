@@ -1,5 +1,5 @@
-/*===========/=/==========*/
-/* navigation bar stuff */
+/*======/==/======*/
+/*=== nav bar ===*/
 
 .navbar {
     color: white;
@@ -25,7 +25,7 @@
 }
 
 
-/* general stuff */
+/*=== general stuff ===*/
 
 .flex-container {
     display: flex;
@@ -69,6 +69,8 @@
     margin: auto;
 }
 
+/*=== projects ===*/
+
 .projects h2 {
     color: white;
     text-decoration: none;
@@ -83,7 +85,18 @@
     color: white;
 }
 
+.projects ul {
+    padding-left: 7%;
+}
+
+.projects li {
+    padding-bottom: 2ch;
+}
+
+/*=== contacts ===*/
+
 .contacts ul {
+    list-style: none;
     padding-left: 5%;
 }
 
@@ -95,7 +108,7 @@
     padding-bottom: 2ch;
 }
 
-/* sections */
+/*=== sections ===*/
 
 .who-i-am {
     display: flex;
@@ -103,8 +116,13 @@
     max-width: 50%;
 }
 
+/*=== social icons ===*/
 
-/* footer stuff */
+.social-icon ion-icon {
+    font-size: 14px;
+}
+
+/*=== footer stuff ===*/
 
 .footer-container {
     display: flex;
