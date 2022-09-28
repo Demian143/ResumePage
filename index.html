@@ -8,25 +8,23 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/id.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Welcome To Demian's Resume</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar gap border-bottom">
+        <nav class="navbar">
             <h2>Demian's resume</h2>
-            <div class="shortcuts">
-                <p><a href="#">Who I am</a></p>
-                <p><a href="#">Projects</a></p>
-                <p><a href="#">Contact</a></p>
-            </div>
+            <p><a href="#">Who I am</a></p>
+            <p><a href="#">Projects</a></p>
+            <p><a href="#">Contact</a></p>
         </nav>
     </header>
 
     <main>
-        <div class="flex-container space-between">
-            <img class="flex-image" id="demian-photo" src="./img/demian.jpg" alt="Demian's face">
-            <div class="who-i-am">
+        <div class="flex-container who-i-am">
+            <div class="who-is-demian">
                 <h1>Who Is Demian_?</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi perferendis libero, unde,
@@ -35,6 +33,7 @@
                     expedita
                 </p>
             </div>
+            <img class="flex-image" id="demian-photo" src="./img/demian.jpg" alt="Demian's face">
         </div>
         <div class="end-of-section"></div>
         <section class="flex-container padding-left projects">
@@ -70,7 +69,7 @@
             </p>
         </section>
         <div class="end-of-section"></div>
-        <section class="flex-container text padding-left contacts">
+        <section class="flex-container padding-left contacts">
             <h2>Contacts</h2>
             <p>You can call me by any of these means:
             <ul id="contacts">

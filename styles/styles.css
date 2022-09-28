@@ -2,28 +2,26 @@
 /*=== nav bar ===*/
 
 .navbar {
-    color: white;
     display: flex;
+    color: white;
     align-items: center;
-    height: 50px;
+    gap: 10%;
+    border-bottom: 0.5px solid white;
 }
+
 
 .navbar h2 {
     padding-left: 12%;
+    padding-right: 12%;
 }
 
-.shortcuts {
-    display: flex;
-    align-items: center;
-}
 
-.shortcuts a {
+.navbar a {
     color: white;
     text-decoration: none;
-    padding: 1cm;
-    font-size: 25px;
-}
+    font-size: 140%;
 
+}
 
 /*=== general stuff ===*/
 
@@ -32,9 +30,7 @@
     height: auto;
     flex-direction: column;
     color: white;
-    padding: 20px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 5%;
 }
 
 .flex-container p {
@@ -43,22 +39,8 @@
     max-width: 75%;
 }
 
-.border-bottom {
-    border-bottom: 0.5px solid white;
-}
-
-.space-between {
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-}
-
-
 .padding-left {
     padding-left: 12%;
-}
-
-.gap {
-    gap: 20%;
 }
 
 .end-of-section {
@@ -108,12 +90,18 @@
     padding-bottom: 2ch;
 }
 
-/*=== sections ===*/
+/*=== who is Demian ===*/
 
-.who-i-am {
+.who-is-demian {
     display: flex;
     flex-direction: column;
     max-width: 50%;
+}
+
+.who-i-am {
+    gap: 10%;
+    flex-direction: row;
+    padding-left: 12%;
 }
 
 /*=== social icons ===*/
@@ -131,4 +119,38 @@
     height: 50px;
     align-items: center;
     padding-left: 12%;
+}
+
+.footer-container a {
+    font-size: 130%;
+}
+
+@media (max-width: 669px) {
+    .navbar {
+        color: white;
+        display: flex;
+        gap: 2ch;
+        flex-direction: column;
+        max-height: 10%;
+    }
+
+    .navbar a,
+    h2 {
+        color: white;
+        text-decoration: none;
+        font-size: 120%;
+
+    }
+
+    .who-i-am {
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-around;
+    }
+
+    #demian-photo {
+        max-width: 10%;
+        border-radius: 50%;
+    }
 }
