@@ -11,4 +11,4 @@
     <li>A bottom to switch between gradient animation to dark mode.</li>
 </ul>
 <p>This is the result until this moment.</p>
-<img src="./img/readme_img/proj_screenshot.png">
+<img style="max-width: 25%;" src="./img/readme_img/proj_screenshot.png">
