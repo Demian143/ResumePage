@@ -2,3 +2,17 @@
     max-width: 20%;
     border-radius: 50%;
 }
+
+#language {
+    font-family: Barlow, BlenderProBook, sans-serif;
+    font-weight: 550;
+    font-size: 140%;
+    color: white;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+#language:hover {
+    border-bottom: 2px solid white;
+}
