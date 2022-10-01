@@ -9,19 +9,18 @@
     border-bottom: 0.5px solid white;
 }
 
-
 .navbar h2 {
     padding-left: 12%;
     padding-right: 12%;
+    margin: 2vh;
 }
-
 
 .navbar a {
     color: white;
     text-decoration: none;
     font-size: 140%;
-
 }
+
 
 /*=== general stuff ===*/
 
@@ -140,6 +139,10 @@
         text-decoration: none;
         font-size: 120%;
 
+    }
+
+    .navbar button {
+        margin: 2vh;
     }
 
     .who-i-am {
