@@ -1,9 +1,16 @@
-const buttonLang = document.getElementById('language');
+const buttonLang = document.getElementById('settings');
 
+function showTab() {
+    const tab = document.getElementById('tab');
 
-
-function alertFunc() {
-    alert('hacked');
+    if (tab.style.display == 'flex') {
+        tab.style.display = 'none';
+    }
+    else {
+        tab.style.display = 'flex';
+    }
 }
 
-buttonLang.addEventListener('click', alertFunc);
+buttonLang.addEventListener('click', () => {
+    showTab();
+});
