@@ -21,6 +21,19 @@
     font-size: 140%;
 }
 
+.navbar button {
+    font-family: Barlow, BlenderProBook, sans-serif;
+    font-weight: 100;
+    font-size: 140%;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.navbar button:hover {
+    border-bottom: 2px solid white;
+}
+
 
 /*=== general stuff ===*/
 
@@ -130,7 +143,6 @@
         display: flex;
         gap: 2ch;
         flex-direction: column;
-        max-height: 10%;
     }
 
     .navbar a,
@@ -142,7 +154,7 @@
     }
 
     .navbar button {
-        margin: 2vh;
+        margin-bottom: 1ch;
     }
 
     .who-i-am {
