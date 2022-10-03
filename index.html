@@ -8,24 +8,23 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/id.css">
     <link rel="stylesheet" href="./assets/css/global.css">
-    <title>Welcome To Demian's Resume</title>
+    <title id="title">Welcome To Demian's Resume</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <h2>Demian's resume</h2>
-            <a href="#who-i-am">Who I am</a>
-            <a href="#projects">Projects</a>
-            <a href="#contacts">Contacts</a>
+            <a id="projects-lang" href="#projects">Projects</a>
+            <a id="contacts-lang" href="#contacts">Contacts</a>
             <button id="settings" type="button">Settings</button>
         </nav>
         <div id="tab" class="tab">
-            <h3>Language</h3>
+            <h3 id="h3language">Language</h3>
             <div id="language" class="toogle">
                 <i id="PT-EN" class="indicator">en</i>
             </div>
-            <h3>Dark Mode</h3>
+            <h3 id="h3darkmode">Dark Mode</h3>
             <div id="dark-mode" class="toogle">
                 <i id="on-off" class="indicator">off</i>
             </div>
@@ -33,10 +32,10 @@
     </header>
 
     <main>
-        <div id="who-i-am" class="flex-container who-i-am">
+        <div class="flex-container who-i-am">
             <div class="who-is-demian">
-                <h1>Who Is Demian_?</h1>
-                <p>
+                <h1 id="h1_whoisdemian">Who Is Demian_?</h1>
+                <p id="p_whoisdemian">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi perferendis libero, unde,
                     rem
                     architecto hic distinctio assumenda totam nemo nihil debitis nesciunt voluptas in dolorem earum amet
@@ -47,35 +46,41 @@
         </div>
         <div class="end-of-section"></div>
         <section id="projects" class="flex-container padding-left projects">
-            <h2>Projects</h2>
-            <p>You can find all my projects in my github, but here's a litte description of each one.</p><br>
+            <h2 id="h2_projects">Projects</h2>
+            <p id="p_projects">You can find all my projects in my github, but here's a litte description of each one.
+            </p>
+            <br>
             <h3>
                 <a href="https://github.com/Demian143/flask_crud_api/tree/main/crud_api" target="_blank">Flask Crud
                     API</a>
             </h3>
-            <p>
+            <p id="p_flaskcrudapi">
                 Consists in a simple interation between the api endpoint and the database.
                 Here you can create a user with email and username, search for a especific user, and delete it.
                 You can see more
-                <a href="https://github.com/Demian143/flask_crud_api/tree/main/crud_api" target="_blank">here.</a>
+                <a id="a_flaskcrudapi" href="https://github.com/Demian143/flask_crud_api/tree/main/crud_api"
+                    target="_blank">here.</a>
             </p>
+
             <h3>
                 <a id="link" href="https://github.com/Demian143/auth_project" target="_blank">Auth Project</a>
             </h3>
-            <p>Create and update information about a user. Until this moment, you'll be able to do the following:
+            <p id="p_authproject">Create and update information about a user. Until this moment, you'll be able to do
+                the following:
             <ul>
-                <li>Create a new user with username, email and password.</li>
-                <li>Login and change the password, username and email.</li>
+                <li id="li1_authproject">Create a new user with username, email and password.</li>
+                <li id="li2_authproject">Login and change the password, username and email.</li>
             </ul>
             </p>
 
             <h3>
                 <a href="https://github.com/Demian143/ResumePage" target="_blank">Resume Page</a>
             </h3>
-            <p>
+            <p id="p_resumepage">
                 The project that needs to be here, source code of the page you are looking at!<br>
                 Now go check the dark magic behind
-                <strong><a href="https://github.com/Demian143/ResumePage" target="_blank">this page.</a></strong>
+                <strong><a id="a_resumepage" href="https://github.com/Demian143/ResumePage" target="_blank">this
+                        page.</a></strong>
             </p>
         </section>
         <div id="contacts" class="end-of-section"></div>

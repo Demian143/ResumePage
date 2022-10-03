@@ -1,0 +1,22 @@
+{
+    "h2_projects": "Projetos",
+    "p_projects": "Você pode achar todos os projetos no meu GitHub, mas aqui vai uma pequena descrição de cada um.",
+    "flaskcrudapi": {
+        "p_flaskcrudapi": "Consiste em uma simples interação entre o endpoint da api e a database. Aqui você pode criar um usuario com email e username, pesquisar por um usuario especifico, e deleta-lo. Você pode ver mais",
+        "a_flaskcrudapi": "aqui."
+    },
+    "authproject": {
+        "p_authproject": "Crie e atualize o cadastro do seu usuario. Até este momento você é capaz de fazer o seguinte:",
+        "li1_authproject": "Cadastrar um novo usuario, com username, email e senha.",
+        "li2_authproject": "Fazer login e alterar os dados do cadastro, como usuario, senha e email."
+    },
+    "resumepage": {
+        "p_resumepage": "O projeto que deve estar aqui é claro, o codigo fonte de tudo que você esta olhando agora! <br> Agora vá dar uma olhada na magica por detras",
+        "a_resumepage": "desta pagina."
+    },
+    "contacts": {
+        "h2": "Contatos",
+        "p": "Você pode me contatar por qualque um desses meios:",
+        "phone": "Telefone: +55 (21) 98110-4219"
+    }
+}

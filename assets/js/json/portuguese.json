@@ -1,0 +1,14 @@
+{
+    "title": "Bem Vindo ao Curriculo de Demian",
+    "navbar": {
+        "who-i-am": "Quem sou eu",
+        "projects": "Projetos",
+        "contacts": "Contatos"
+    },
+    "h3language": "Linguagem",
+    "h3darkmode": "Modo Noturno",
+    "whoisdemian": {
+        "h1_whoisdemian": "Quem é Demian_?",
+        "p_whoisdemian": "teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"
+    }
+}
