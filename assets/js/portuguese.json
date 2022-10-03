@@ -1,0 +1,34 @@
+{
+    "title": "Bem Vindo ao Curriculo de Demian",
+    "h3Language": "Linguagem",
+    "h3DarkMode": "Modo Noturno",
+    "WhoIsDemian": {
+        "h1": "Quem é Demian_?",
+        "p": "teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste"
+    },
+    "projects": {
+        "h2": "Você pode achar todos os projetos no meu GitHub, mas aqui vai uma pequena descrição de cada um.",
+        "FlaskCrudApi": {
+            "p": "Consiste em uma simples interação entre o endpoint da api e a database. Aqui você pode criar um usuario com email e username, pesquisar por um usuario especifico, e deleta-lo. Você pode ver mais",
+            "p_a": "aqui."
+        },
+        "AuthProject": {
+            "p": "Crie e atualize o cadastro do seu usuario. Até este momento você é capaz de fazer o seguinte:",
+            "li1": "Cadastrar um novo usuario, com username, email e senha.",
+            "li2": "Fazer login e alterar os dados do cadastro, como usuario, senha e email."
+        },
+        "ResumePage": {
+            "p": "O projeto que deve estar aqui é claro, o codigo fonte de tudo que você esta olhando agora! <br> Agora vá dar uma olhada na magica por detras",
+            "p_a": "desta pagina."
+        },
+        "contacts": {
+            "h2": "Contatos",
+            "p": "Você pode me contatar por qualque um desses meios:",
+            "phone": "Telefone: +55 (21) 98110-4219"
+        }
+    },
+    "footer": {
+        "contact": "Contato",
+        "details": "Detalhes"
+    }
+}
